@@ -25,4 +25,4 @@ http://urlthree.com
 
 -- From Terminal Prompt on Unix/Linux based OS 
 
-./check < urlsToCheck.txt
+> ./check < urlsToCheck.txt
