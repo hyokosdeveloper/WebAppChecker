@@ -16,5 +16,4 @@ Runs `GET` requests against the list of URLs and prints:
 - time to complete request
 - time to first byte (time_pretransfer - time_starttransfer)
 
-Note: this was written on a Mac in a hacky fashion (sorry), but also not
-tested on other *nix systems. If you see a problem, please open a pull request.
+- Tested on OSX up to 10.12.6
