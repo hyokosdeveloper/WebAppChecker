@@ -1,28 +1,20 @@
-# WebAppChecker
-***
-batch script that check the status of a list of urls
+# Checks the status of a list of urls
 
----
+Usage:
 
-# TO Check a Single URL
--- From a Terminal Prompt on a Unix/Linux based OS --
---
-> ./check http://theurltocheck.com
+```bash
+$ ./check <url>
+$ ./check < url-list.txt
+```
 
----
+![demo](check-script.gif)
 
-# To Check a List of URLS
--- Create a text file with each url listed on a seperate line - ie:
+Runs `GET` requests against the list of URLs and prints:
 
-http://urlone.com
+- status code
+- url
+- time to complete request
+- time to first byte (time_pretransfer - time_starttransfer)
 
-http://urltwo.com
-
-http://urlthree.com
-
-
--- Save file as "urlsToCheck.txt"
-
--- From Terminal Prompt on Unix/Linux based OS 
-
-> ./check < urlsToCheck.txt
+Note: this was written on a Mac in a hacky fashion (sorry), but also not
+tested on other *nix systems. If you see a problem, please open a pull request.

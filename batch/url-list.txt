@@ -1,6 +1,0 @@
-http://oneview.descartes.com
-http://iview.iesltd.com
-http://eib.iesltd.com
-http://track.iesltd.com
-http://ams.iesltd.com
-http://amsair.iesltd.com
